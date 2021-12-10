@@ -1,1 +1,24 @@
 #include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+	int i,NOP,sum=0,count=0,y,quant,wt=0,tat=0,at[10],bt[10],temp[10];
+	float avg_wt,avg_tat;
+	printf("Total number of process in the system : ");
+	scanf("%d",&NOP);
+	y=NOP;//assign number procees of vaariable y
+	//use for loop enter detail of the processs like rrival time and the brust time
+	for(i=0;i<NOP;i++)
+	{
+		printf("\n Enter the brust time of the rocess [%d]\n",i+1);
+		printf("\nBrust time is \t");
+		scanf("%d",&bt[i]);
+		temp[i]=bt[i];
+		a[i]=0;//store the brust time in the array
+	}
+	//Accept the time quant
+	printf("\nEnter the slice time");
+	scanf("%d",&quant);
+	printf("\n process brust");\\baki
+}
